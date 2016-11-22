@@ -2,7 +2,7 @@
   "name": "redux-saga-ticker",
   "version": "1.0.0",
   "description": "A simple ticker for redux-saga.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src --presets es2015 --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
