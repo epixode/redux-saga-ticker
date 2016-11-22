@@ -1,0 +1,35 @@
+{
+  "name": "redux-saga-ticker",
+  "version": "1.0.0",
+  "description": "A simple ticker for redux-saga.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --presets es2015 --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epixode/redux-saga-ticker.git"
+  },
+  "keywords": [
+    "ticker",
+    "redux-saga"
+  ],
+  "author": "epixode (https://epixode.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epixode/redux-saga-ticker/issues"
+  },
+  "homepage": "https://github.com/epixode/redux-saga-ticker#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "redux-saga": "^0.13.0"
+  },
+  "peerDependencies": {
+    "redux-saga": "^0.13.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.18.0"
+  }
+}
