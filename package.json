@@ -1,6 +1,6 @@
 {
   "name": "redux-saga-ticker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple ticker for redux-saga.",
   "main": "dist/index.js",
   "scripts": {
